@@ -1,0 +1,502 @@
+﻿[2015.11.08-17.37.03:303][  0]Log file open, 11/08/15 17:37:03
+[2015.11.08-17.37.03:303][  0]LogInit:Display: Running engine for game: MaidRunner_AD_01
+[2015.11.08-17.37.03:303][  0]LogInit:Display: RandInit(1774786226) SRandInit(1774786226).
+[2015.11.08-17.37.03:303][  0]LogTaskGraph: Started task graph with 4 named threads and 7 total threads.
+[2015.11.08-17.37.03:303][  0]LogStats: Stats thread started at 5.515505
+[2015.11.08-17.37.03:303][  0]LogInit: Version: 4.9.2-2707645+++depot+UE4-Releases+4.9
+[2015.11.08-17.37.03:303][  0]LogInit: API Version: 2672455
+[2015.11.08-17.37.03:303][  0]LogInit: Compiled (64-bit): Sep 28 2015 10:25:44
+[2015.11.08-17.37.03:303][  0]LogInit: Compiled with Visual C++: 18.00.21005.01
+[2015.11.08-17.37.03:303][  0]LogInit: Build Configuration: Development
+[2015.11.08-17.37.03:303][  0]LogInit: Branch Name: ++depot+UE4-Releases+4.9
+[2015.11.08-17.37.03:303][  0]LogInit: Command line:  
+[2015.11.08-17.37.03:303][  0]LogInit: Base directory: C:/Program Files/Epic Games/4.9/Engine/Binaries/Win64/
+[2015.11.08-17.37.03:303][  0]LogInit: Rocket: 1
+[2015.11.08-17.37.03:602][  0]LogInit: Using libcurl 7.41.0
+[2015.11.08-17.37.03:602][  0]LogInit:  - built for x86_64-pc-win32
+[2015.11.08-17.37.03:602][  0]LogInit:  - supports SSL with WinSSL
+[2015.11.08-17.37.03:602][  0]LogInit:  - other features:
+[2015.11.08-17.37.03:602][  0]LogInit:      CURL_VERSION_SSL
+[2015.11.08-17.37.03:602][  0]LogInit:      CURL_VERSION_IPV6
+[2015.11.08-17.37.03:602][  0]LogInit:      CURL_VERSION_ASYNCHDNS
+[2015.11.08-17.37.03:602][  0]LogInit:      CURL_VERSION_LARGEFILE
+[2015.11.08-17.37.03:602][  0]LogInit:      CURL_VERSION_IDN
+[2015.11.08-17.37.03:602][  0]LogInit:  CurlRequestOptions (configurable via config and command line):
+[2015.11.08-17.37.03:602][  0]LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+[2015.11.08-17.37.03:602][  0]LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+[2015.11.08-17.37.03:602][  0]LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+[2015.11.08-17.37.03:602][  0]LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+[2015.11.08-17.37.03:882][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2015.11.08-17.37.04:705][  0]LogInit: Object subsystem initialized
+[2015.11.08-17.37.05:274][  0]LogInit: Selected Device Profile: [Windows]
+[2015.11.08-17.37.05:274][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2015.11.08-17.37.05:442][  0]LogInit: Computer: PHOENIX
+[2015.11.08-17.37.05:443][  0]LogInit: User: Beren
+[2015.11.08-17.37.05:443][  0]LogInit: CPU Page size=4096, Cores=4
+[2015.11.08-17.37.05:444][  0]LogInit: High frequency timer resolution =2.734423 MHz
+[2015.11.08-17.37.05:457][  0]LogMemory: Memory total: Physical=8.0GB (8GB approx)
+[2015.11.08-17.37.05:457][  0]LogMemory: Platform Memory Stats for Windows
+[2015.11.08-17.37.05:457][  0]LogMemory: Process Physical Memory: 54.18 MB used, 54.18 MB peak
+[2015.11.08-17.37.05:457][  0]LogMemory: Process Virtual Memory: 56.61 MB used, 56.61 MB peak
+[2015.11.08-17.37.05:457][  0]LogMemory: Physical Memory: 3597.66 MB used, 8150.99 MB total
+[2015.11.08-17.37.05:457][  0]LogMemory: Virtual Memory: 334.34 MB used, 8388608.00 MB total
+[2015.11.08-17.37.08:354][  0]LogTextLocalizationManager: No specific translations for ('en-GB') exist, so ('en') translations will be used.
+[2015.11.08-17.37.11:407][  0]LogD3D11RHI: Found D3D11 adapter 0: AMD Radeon HD 6900 Series (Feature Level 11_0)
+[2015.11.08-17.37.11:419][  0]LogD3D11RHI: Adapter has 2032MB of dedicated video memory, 0MB of dedicated system memory, and 3819MB of shared system memory, 1 output[s]
+[2015.11.08-17.37.11:419][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2015.11.08-17.37.11:438][  0]LogD3D11RHI: !Direct3DDevice
+[2015.11.08-17.37.11:456][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2015.11.08-17.37.11:463][  0]LogD3D11RHI: Async texture creation disabled: no driver support
+[2015.11.08-17.37.12:095][  0]LogShaderCompilers: Guid format shader working directory is 15 characters bigger than the processId version (../../../../../../Users/Beren/Documents/University/Year 2/Game Engine and Assets/Unreal Projects/MaidRunner_AD_01/Intermediate/Shaders/WorkingDirectory/9584/).
+[2015.11.08-17.37.12:096][  0]LogShaderCompilers: Cleaned the shader compiler working directory '../../../../../../Users/Beren/Documents/University/Year 2/Game Engine and Assets/Unreal Projects/MaidRunner_AD_01/Intermediate/Shaders/tmp/76C9C33A4D127058FBB476B751E47D0C/'.
+[2015.11.08-17.37.12:111][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2015.11.08-17.37.27:162][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2015.11.08-17.37.27:345][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2015.11.08-17.37.27:380][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2015.11.08-17.37.27:395][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2015.11.08-17.37.27:410][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2015.11.08-17.37.27:447][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2015.11.08-17.37.27:460][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2015.11.08-17.37.27:498][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2015.11.08-17.37.27:511][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2015.11.08-17.37.27:525][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2015.11.08-17.37.27:538][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2015.11.08-17.37.27:552][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2015.11.08-17.37.27:561][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2015.11.08-17.37.27:684][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2015.11.08-17.37.27:694][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2015.11.08-17.37.27:704][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2015.11.08-17.37.27:715][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2015.11.08-17.37.27:715][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.11.08-17.37.28:745][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2015.11.08-17.37.29:324][  0]LogDerivedDataCache: Loaded boot cache 0.54s 41MB C:/Users/Beren/AppData/Local/UnrealEngine/4.9/DerivedDataCache/Boot.ddc.
+[2015.11.08-17.37.29:324][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Beren/AppData/Local/UnrealEngine/4.9/DerivedDataCache/Boot.ddc
+[2015.11.08-17.37.29:324][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Beren/Documents/University/Year 2/Game Engine and Assets/Unreal Projects/MaidRunner_AD_01/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2015.11.08-17.37.29:324][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2015.11.08-17.37.29:324][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/Beren/Documents/University/Year 2/Game Engine and Assets/Unreal Projects/MaidRunner_AD_01/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2015.11.08-17.37.29:324][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2015.11.08-17.37.29:650][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2015.11.08-17.37.29:714][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Beren/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2015.11.08-17.37.43:275][  0]LogInit: Selected Device Profile: [Windows]
+[2015.11.08-17.37.43:330][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2015.11.08-17.37.44:044][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2015.11.08-17.37.44:044][  0]LogMeshUtilities: No automatic mesh merging module available
+[2015.11.08-17.37.58:969][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2015.11.08-17.38.50:327][  0]LogAssetRegistry: FAssetRegistry took 0.0142 seconds to start up
+[2015.11.08-17.38.51:407][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2015.11.08-17.38.59:801][  0]SourceControl: Info Source control is disabled
+[2015.11.08-17.38.59:802][  0]SourceControl: Info Source control is disabled
+[2015.11.08-17.38.59:890][  0]SourceControl: Info Source control is disabled
+[2015.11.08-17.38.59:961][  0]SourceControl: Info Source control is disabled
+[2015.11.08-17.39.01:222][  0]LogLinker:Warning: Asset '../../../Engine/Plugins/Runtime/LeapMotionController/Content/LM_PassthroughMaterial.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.11.08-17.39.01:964][  0]LogObj: 28528 objects as part of root set at end of initial load.
+[2015.11.08-17.39.01:964][  0]LogUObjectAllocator: 6068464 out of 0 bytes used by permanent object pool.
+[2015.11.08-17.39.02:828][  0]LogEngine: Initializing Engine...
+[2015.11.08-17.39.02:871][  0]LogHMD: Can't find Oculus library dev build: is proper Runtime installed? Version: 0.7.0.0
+[2015.11.08-17.39.02:930][  0]LogHMD: SteamVR failed to initialize.  Err: 110
+[2015.11.08-17.39.04:656][  0]LogAIModule: Creating AISystem for world NewWorld
+[2015.11.08-17.39.05:038][  0]LogInit: XAudio2 using 'Speakers (VIA HD Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.11.08-17.39.05:144][  0]LogInit: FAudioDevice initialized.
+[2015.11.08-17.39.05:205][  0]LogDerivedDataCache: Saved boot cache 0.06s 41MB C:/Users/Beren/AppData/Local/UnrealEngine/4.9/DerivedDataCache/Boot.ddc.
+[2015.11.08-17.39.05:212][  0]LogInit: Texture streaming: Enabled
+[2015.11.08-17.39.05:302][  0]LogAnalytics: Creating configured Analytics provider AnalyticsET
+[2015.11.08-17.39.05:302][  0]LogAnalytics: [UEEditor.Rocket.Release] APIServer = http://et2.epicgames.com/ET2/. AppVersion = 4.9.2-2707645+++depot+UE4-Releases+4.9
+[2015.11.08-17.39.05:302][  0]LogAnalytics: [UEEditor.Rocket.Release] SetUserId 3ab26a0a4fcf02a9d7a1c0b18ce06c6d|1a9fd4cccc794e438b183d4a2d921f67|3d9614c9-529e-4188-9376-3f0e091b9e40
+[2015.11.08-17.39.05:302][  0]LogAnalytics: [UEEditor.Rocket.Release] AnalyticsET::StartSession
+[2015.11.08-17.39.06:117][  0]LogInit: Transaction tracking system initialized
+[2015.11.08-17.39.07:900][  0]BlueprintLog: New page: Editor Load
+[2015.11.08-17.39.10:504][  0]LocalizationService: Info Localization service is disabled
+[2015.11.08-17.39.12:020][  0]LogConsoleResponse:Display: 
+[2015.11.08-17.39.16:456][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Beren/Documents/University/Year 2/Game Engine and Assets/Unreal Projects/MaidRunner_AD_01/Content/' took 0.06s
+[2015.11.08-17.39.16:457][  0]LogCook:Display: Done creating registry. It took  0.00s.
+[2015.11.08-17.39.18:779][  0]SourceControl: Info Source control is disabled
+[2015.11.08-17.39.18:916][  0]LightingResults: New page: Lighting Build
+[2015.11.08-17.39.19:284][  0]MapCheck: New page: Map Check
+[2015.11.08-17.39.19:284][  0]LightingResults: New page: Lighting Build
+[2015.11.08-17.39.19:754][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000001DB5C400
+[2015.11.08-17.39.27:786][  0]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2015.11.08-17.39.28:548][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2015.11.08-17.39.28:608][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2015.11.08-17.39.28:678][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 70.462ms to complete.
+[2015.11.08-17.39.28:722][  0]LogFileHelpers: Loading map 'ThirdPersonExampleMap' took 9.882
+[2015.11.08-17.39.30:446][  0]LogCollectionManager: Loaded 0 collections in 0.002911 seconds
+[2015.11.08-17.39.30:590][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Beren/Documents/University/Year 2/Game Engine and Assets/Unreal Projects/MaidRunner_AD_01/Saved/Collections/' took 0.01s
+[2015.11.08-17.39.30:590][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Beren/Documents/University/Year 2/Game Engine and Assets/Unreal Projects/MaidRunner_AD_01/Content/Developers/Beren/Collections/' took 0.01s
+[2015.11.08-17.39.30:590][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Beren/Documents/University/Year 2/Game Engine and Assets/Unreal Projects/MaidRunner_AD_01/Content/Collections/' took 0.01s
+[2015.11.08-17.39.30:590][  0]LogContentBrowser: Native class hierarchy populated in 0.0401 seconds. Added 1882 classes and 339 folders.
+[2015.11.08-17.39.30:687][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000005 seconds
+[2015.11.08-17.39.30:806][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2015.11.08-17.39.33:198][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2015.11.08-17.39.33:319][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0005 seconds. Added 1 classes and 2 folders.
+[2015.11.08-17.39.33:937][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2015.11.08-17.39.34:082][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2015.11.08-17.39.34:156][  0]LogLoad: Full Startup: 163.00 seconds (BP compile: 1.61 seconds)
+[2015.11.08-17.39.35:374][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2015.11.08-17.39.36:204][  0]LogRenderer: Reallocating scene render targets to support 708x456 (Frame:2).
+[2015.11.08-17.39.38:275][  5]LogAssetRegistry: Asset discovery search completed in 47.9591 seconds
+[2015.11.08-17.39.38:275][  5]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2015.11.08-17.39.38:275][  5]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000036 seconds (updated 0 objects)
+[2015.11.08-17.40.19:710][920]LogActorFactory: Actor Factory created Cube
+[2015.11.08-17.40.20:673][  9]LogActorFactory: Actor Factory created Cube
+[2015.11.08-17.40.24:615][281]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube11)
+[2015.11.08-17.40.33:798][967]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube24)
+[2015.11.08-17.40.43:012][655]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube24)
+[2015.11.08-17.40.45:179][849]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2015.11.08-17.40.45:962][915]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube24)
+[2015.11.08-17.41.03:651][567]PIE:Warning: Warning Scale ''X=1.000 Y=0.000 Z=1.000'' is not valid on object '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.Cube24_4.StaticMeshComponent0 Cube'.
+[2015.11.08-17.41.03:652][567]PIE:Warning: Warning Scale ''X=1.000 Y=0.000 Z=1.000'' is not valid on object '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.Cube24_4.StaticMeshComponent0 Cube'.
+[2015.11.08-17.41.04:676][671]PIE:Warning: Warning Scale ''X=1.000 Y=0.000 Z=1.000'' is not valid on object '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.Cube24_4.StaticMeshComponent0 Cube'.
+[2015.11.08-17.41.04:676][671]PIE:Warning: Warning Scale ''X=1.000 Y=0.000 Z=1.000'' is not valid on object '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.Cube24_4.StaticMeshComponent0 Cube'.
+[2015.11.08-17.41.24:598][646]Cmd: TRANSACTION UNDO
+[2015.11.08-17.41.24:598][646]LogEditorTransaction: Undo Move Actors
+[2015.11.08-17.41.53:388][342]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Cube24)
+[2015.11.08-17.41.54:767][486]LogLinker:Warning: Asset '../../../../../../Users/Beren/Documents/University/Year 2/Game Engine and Assets/Unreal Projects/MaidRunner_AD_01/Content/Mannequin/Animations/ThirdPerson_AnimBP.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.11.08-17.41.54:787][486]LogLinker:Warning: Asset '../../../../../../Users/Beren/Documents/University/Year 2/Game Engine and Assets/Unreal Projects/MaidRunner_AD_01/Content/Mannequin/Animations/ThirdPerson_Jump.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.11.08-17.41.54:855][486]LogLinker:Warning: Asset '../../../../../../Users/Beren/Documents/University/Year 2/Game Engine and Assets/Unreal Projects/MaidRunner_AD_01/Content/Mannequin/Animations/ThirdPersonJump_Loop.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.11.08-17.41.54:870][486]LogLinker:Warning: Asset '../../../../../../Users/Beren/Documents/University/Year 2/Game Engine and Assets/Unreal Projects/MaidRunner_AD_01/Content/Mannequin/Animations/ThirdPersonJump_Start.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.11.08-17.41.54:894][486]LogLinker:Warning: Asset '../../../../../../Users/Beren/Documents/University/Year 2/Game Engine and Assets/Unreal Projects/MaidRunner_AD_01/Content/Mannequin/Animations/ThirdPerson_IdleRun_2D.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.11.08-17.41.54:921][486]LogLinker:Warning: Asset '../../../../../../Users/Beren/Documents/University/Year 2/Game Engine and Assets/Unreal Projects/MaidRunner_AD_01/Content/Mannequin/Animations/ThirdPersonIdle.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.11.08-17.41.54:937][486]LogLinker:Warning: Asset '../../../../../../Users/Beren/Documents/University/Year 2/Game Engine and Assets/Unreal Projects/MaidRunner_AD_01/Content/Mannequin/Animations/ThirdPersonRun.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.11.08-17.41.54:954][486]LogLinker:Warning: Asset '../../../../../../Users/Beren/Documents/University/Year 2/Game Engine and Assets/Unreal Projects/MaidRunner_AD_01/Content/Mannequin/Animations/ThirdPersonWalk.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.11.08-17.41.57:453][546]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube24)
+[2015.11.08-17.42.11:921][729]LogMaterial: Missing cached shader map for material BasicShapeMaterial, compiling. 
+[2015.11.08-17.42.12:330][729]LogMaterial: Missing cached shader map for material BasicShapeMaterial, compiling. 
+[2015.11.08-17.42.12:338][729]LogMaterial: 0.000109 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.11.08-17.42.12:379][729]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2015.11.08-17.42.16:821][944]MaterialEditorStats: Info Base pass shader with static lighting: 65 instructions
+[2015.11.08-17.42.16:821][944]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 33 instructions
+[2015.11.08-17.42.16:821][944]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2015.11.08-17.42.16:821][944]MaterialEditorStats: Info Texture samplers: 2/16
+[2015.11.08-17.43.06:708][718]LogMaterial: Missing cached shader map for material Glass, compiling. 
+[2015.11.08-17.43.06:861][718]LogMaterial: Missing cached shader map for material Glass, compiling. 
+[2015.11.08-17.43.06:868][718]LogMaterial: 0.000176 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.11.08-17.43.09:808][875]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 31 instructions
+[2015.11.08-17.43.09:808][875]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2015.11.08-17.43.09:808][875]MaterialEditorStats: Info Texture samplers: 0/16
+[2015.11.08-17.43.19:002][414]LogMaterial: Missing cached shader map for material Glass, compiling. 
+[2015.11.08-17.43.19:009][414]LogMaterial: 0.000088 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.11.08-17.43.19:043][414]LogMaterial: Missing cached shader map for material Glass, compiling. 
+[2015.11.08-17.43.19:060][414]LogMaterial:Warning: Failed to compile Material /Engine/Transient.Glass for platform PCD3D_SM5, Default Material will be used in game.
+[2015.11.08-17.43.19:060][414]LogMaterial:Warning: 	(Node Desaturation) Missing Desaturation input
+[2015.11.08-17.43.19:061][414]LogMaterial: 0.000071 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.11.08-17.43.19:063][414]MaterialEditorStats:Error: Error [SM5] (Node Desaturation) Missing Desaturation input
+[2015.11.08-17.43.21:301][552]LogMaterial: Missing cached shader map for material Glass, compiling. 
+[2015.11.08-17.43.21:308][552]LogMaterial: 0.000075 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.11.08-17.43.22:800][623]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 31 instructions
+[2015.11.08-17.43.22:800][623]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2015.11.08-17.43.22:800][623]MaterialEditorStats: Info Texture samplers: 0/16
+[2015.11.08-17.43.34:602][614]LogMaterial: Missing cached shader map for material Glass, compiling. 
+[2015.11.08-17.43.34:609][614]LogMaterial: 0.000044 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.11.08-17.43.34:669][614]LogMaterial: Missing cached shader map for material Glass, compiling. 
+[2015.11.08-17.43.34:676][614]LogMaterial: 0.000093 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.11.08-17.43.36:050][687]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 31 instructions
+[2015.11.08-17.43.36:050][687]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2015.11.08-17.43.36:050][687]MaterialEditorStats: Info Texture samplers: 0/16
+[2015.11.08-17.43.41:461][ 38]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant_0, compiling. 
+[2015.11.08-17.43.48:053][463]LogMaterial: Missing cached shader map for material Glass, compiling. 
+[2015.11.08-17.43.48:060][463]LogMaterial: 0.000053 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.11.08-17.43.48:117][463]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant_0, compiling. 
+[2015.11.08-17.43.49:390][526]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 31 instructions
+[2015.11.08-17.43.49:390][526]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2015.11.08-17.43.49:390][526]MaterialEditorStats: Info Texture samplers: 0/16
+[2015.11.08-17.43.50:707][625]LogMaterial: Missing cached shader map for material Glass, compiling. 
+[2015.11.08-17.43.50:715][625]LogMaterial: 0.000052 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.11.08-17.43.50:797][625]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant_0, compiling. 
+[2015.11.08-17.43.52:221][693]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 31 instructions
+[2015.11.08-17.43.52:221][693]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2015.11.08-17.43.52:221][693]MaterialEditorStats: Info Texture samplers: 0/16
+[2015.11.08-17.43.59:201][195]LogMaterial: Missing cached shader map for material Glass, compiling. 
+[2015.11.08-17.43.59:209][195]LogMaterial: 0.000074 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.11.08-17.43.59:235][195]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant_0, compiling. 
+[2015.11.08-17.44.00:622][268]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 31 instructions
+[2015.11.08-17.44.00:622][268]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2015.11.08-17.44.00:622][268]MaterialEditorStats: Info Texture samplers: 0/16
+[2015.11.08-17.44.03:656][470]LogMaterial: Missing cached shader map for material Glass, compiling. 
+[2015.11.08-17.44.03:663][470]LogMaterial: 0.000115 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.11.08-17.44.03:701][470]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant_0, compiling. 
+[2015.11.08-17.44.05:380][557]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 31 instructions
+[2015.11.08-17.44.05:380][557]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2015.11.08-17.44.05:380][557]MaterialEditorStats: Info Texture samplers: 0/16
+[2015.11.08-17.44.07:137][696]LogMaterial: Missing cached shader map for material Glass, compiling. 
+[2015.11.08-17.44.07:144][696]LogMaterial: 0.000064 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.11.08-17.44.07:233][696]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant_0, compiling. 
+[2015.11.08-17.44.08:740][784]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 31 instructions
+[2015.11.08-17.44.08:740][784]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2015.11.08-17.44.08:740][784]MaterialEditorStats: Info Texture samplers: 0/16
+[2015.11.08-17.44.10:414][928]LogMaterial: Missing cached shader map for material Glass, compiling. 
+[2015.11.08-17.44.10:421][928]LogMaterial: 0.000059 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.11.08-17.44.10:449][928]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant_0, compiling. 
+[2015.11.08-17.44.11:811][ 10]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 31 instructions
+[2015.11.08-17.44.11:811][ 10]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2015.11.08-17.44.11:811][ 10]MaterialEditorStats: Info Texture samplers: 0/16
+[2015.11.08-17.44.12:972][112]LogMaterial: Missing cached shader map for material Glass, compiling. 
+[2015.11.08-17.44.12:979][112]LogMaterial: 0.000080 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.11.08-17.44.13:004][112]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant_0, compiling. 
+[2015.11.08-17.44.14:646][222]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 31 instructions
+[2015.11.08-17.44.14:646][222]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2015.11.08-17.44.14:646][222]MaterialEditorStats: Info Texture samplers: 0/16
+[2015.11.08-17.44.15:406][271]LogMaterial: Missing cached shader map for material Glass, compiling. 
+[2015.11.08-17.44.15:413][271]LogMaterial: 0.000084 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.11.08-17.44.15:456][271]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant_0, compiling. 
+[2015.11.08-17.44.17:170][374]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 31 instructions
+[2015.11.08-17.44.17:171][374]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2015.11.08-17.44.17:171][374]MaterialEditorStats: Info Texture samplers: 0/16
+[2015.11.08-17.44.50:728][814]LogMaterial: Missing cached shader map for material Glass, compiling. 
+[2015.11.08-17.44.50:754][814]LogMaterial: Missing cached shader map for material Glass, compiling. 
+[2015.11.08-17.44.50:762][814]LogMaterial: 0.000064 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.11.08-17.44.55:388][ 76]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 25 instructions
+[2015.11.08-17.44.55:388][ 76]MaterialEditorStats: Info Base pass shader for self shadowed translucency: 60 instructions
+[2015.11.08-17.44.55:388][ 76]MaterialEditorStats: Info Vertex shader: 68 instructions
+[2015.11.08-17.44.55:388][ 76]MaterialEditorStats: Info Texture samplers: 4/16
+[2015.11.08-17.45.17:555][872]LogMaterial: Missing cached shader map for material Glass, compiling. 
+[2015.11.08-17.45.17:563][872]LogMaterial: 0.000117 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.11.08-17.45.17:566][872]LogMaterial: Missing cached shader map for material Glass, compiling. 
+[2015.11.08-17.45.17:574][872]LogMaterial: 0.000035 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.11.08-17.45.22:144][139]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 25 instructions
+[2015.11.08-17.45.22:144][139]MaterialEditorStats: Info Base pass shader for self shadowed translucency: 61 instructions
+[2015.11.08-17.45.22:144][139]MaterialEditorStats: Info Vertex shader: 68 instructions
+[2015.11.08-17.45.22:144][139]MaterialEditorStats: Info Texture samplers: 4/16
+[2015.11.08-17.45.26:926][428]LogMaterial: Missing cached shader map for material Glass, compiling. 
+[2015.11.08-17.45.26:934][428]LogMaterial: 0.000056 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.11.08-17.45.30:570][637]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 25 instructions
+[2015.11.08-17.45.30:570][637]MaterialEditorStats: Info Base pass shader for self shadowed translucency: 61 instructions
+[2015.11.08-17.45.30:570][637]MaterialEditorStats: Info Vertex shader: 68 instructions
+[2015.11.08-17.45.30:570][637]MaterialEditorStats: Info Texture samplers: 4/16
+[2015.11.08-17.45.41:344][376]LogMaterial: Missing cached shader map for material Glass, compiling. 
+[2015.11.08-17.45.41:352][376]LogMaterial: 0.000084 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.11.08-17.45.41:404][376]LogMaterial: Missing cached shader map for material Glass, compiling. 
+[2015.11.08-17.45.41:413][376]LogMaterial: 0.000173 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.11.08-17.45.45:179][600]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 25 instructions
+[2015.11.08-17.45.45:179][600]MaterialEditorStats: Info Base pass shader for self shadowed translucency: 61 instructions
+[2015.11.08-17.45.45:179][600]MaterialEditorStats: Info Vertex shader: 68 instructions
+[2015.11.08-17.45.45:179][600]MaterialEditorStats: Info Texture samplers: 4/16
+[2015.11.08-17.45.45:803][635]LogMaterial: Missing cached shader map for material Glass, compiling. 
+[2015.11.08-17.45.45:812][635]LogMaterial: 0.000056 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.11.08-17.45.49:383][850]LogMaterialEditor: Saving and Compiling material Glass
+[2015.11.08-17.45.50:272][850]LogMaterial: Missing cached shader map for material Glass, compiling. 
+[2015.11.08-17.45.50:306][850]LogMaterial: 0.000119 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.11.08-17.45.50:340][850]LogMaterial: Missing cached shader map for material Glass, compiling. 
+[2015.11.08-17.45.50:369][850]LogMaterial: Missing cached shader map for material Glass, compiling. 
+[2015.11.08-17.45.50:381][850]LogMaterial: 0.000791 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.11.08-17.45.55:314][850]LogSavePackage: Save=24.511204ms
+[2015.11.08-17.45.55:314][850]LogSavePackage: Moving '../../../../../../Users/Beren/Documents/University/Year 2/Game Engine and Assets/Unreal Projects/MaidRunner_AD_01/Saved/Glass1A31715445D1529A2CC2BB92E0144F5A.tmp' to '../../../../../../Users/Beren/Documents/University/Year 2/Game Engine and Assets/Unreal Projects/MaidRunner_AD_01/Content/Materials/Glass.uasset'
+[2015.11.08-17.45.55:333][850]LogSavePackage: Total save time: 50.984431ms
+[2015.11.08-17.45.55:333][850]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/Beren/Documents/University/Year 2/Game Engine and Assets/Unreal Projects/MaidRunner_AD_01/Content/Materials/Glass.uasset
+[2015.11.08-17.45.55:339][850]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 45 instructions
+[2015.11.08-17.45.55:339][850]MaterialEditorStats: Info Base pass shader for self shadowed translucency: 81 instructions
+[2015.11.08-17.45.55:339][850]MaterialEditorStats: Info Vertex shader: 68 instructions
+[2015.11.08-17.45.55:339][850]MaterialEditorStats: Info Texture samplers: 4/16
+[2015.11.08-17.46.43:067][682]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2015.11.08-17.46.43:960][765]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube14)
+[2015.11.08-17.46.47:976][149]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube24)
+[2015.11.08-17.48.35:438][562]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2015.11.08-17.48.42:328][198]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Window13)
+[2015.11.08-17.50.28:800][794]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2015.11.08-17.50.30:472][930]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube18)
+[2015.11.08-17.50.36:920][517]LogActorFactory: Actor Factory created Cube
+[2015.11.08-17.50.38:700][685]LogActorFactory: Actor Factory created Cube
+[2015.11.08-17.50.54:954][232]Cmd: DELETE
+[2015.11.08-17.50.54:954][232]Cmd: ACTOR DELETE
+[2015.11.08-17.50.55:051][232]LogEditorActor: Deleted Actor: StaticMeshActor
+[2015.11.08-17.50.55:051][232]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.11.08-17.50.55:077][232]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000002E1F7C40
+[2015.11.08-17.50.55:099][232]LogEditorActor: Deleted 1 Actors (0.049 secs)
+[2015.11.08-17.51.23:623][631]LogMaterial: Missing cached shader map for material Material_0, compiling. 
+[2015.11.08-17.51.28:697][ 88]LogActorFactory: Actor Factory created Cube
+[2015.11.08-17.51.29:471][163]LogActorFactory: Actor Factory created Cube
+[2015.11.08-17.51.57:844][809]Cmd: TRANSACTION UNDO
+[2015.11.08-17.51.57:844][809]LogEditorTransaction: Undo Move Actors
+[2015.11.08-17.51.57:867][809]LogMaterial: Missing cached shader map for material Glass, compiling. 
+[2015.11.08-17.51.57:875][809]LogMaterial: 0.000065 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.11.08-17.52.00:785][ 50]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2015.11.08-17.52.01:340][ 90]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube3)
+[2015.11.08-17.52.02:244][163]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 25 instructions
+[2015.11.08-17.52.02:244][163]MaterialEditorStats: Info Base pass shader for self shadowed translucency: 61 instructions
+[2015.11.08-17.52.02:244][163]MaterialEditorStats: Info Vertex shader: 68 instructions
+[2015.11.08-17.52.02:244][163]MaterialEditorStats: Info Texture samplers: 4/16
+[2015.11.08-17.52.38:583][409]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube16)
+[2015.11.08-17.52.41:854][705]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube10)
+[2015.11.08-17.52.45:110][995]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube16)
+[2015.11.08-17.53.08:941][222]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube3)
+[2015.11.08-17.53.12:287][498]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube10)
+[2015.11.08-17.53.13:943][642]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube16)
+[2015.11.08-17.53.29:411][753]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2015.11.08-17.53.29:779][778]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2015.11.08-17.53.30:166][810]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube3)
+[2015.11.08-17.53.35:733][314]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2015.11.08-17.54.07:367][ 41]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.11.08-17.54.08:589][ 41]LogSavePackage: Save=451.392120ms
+[2015.11.08-17.54.08:589][ 41]LogSavePackage: Moving '../../../../../../Users/Beren/Documents/University/Year 2/Game Engine and Assets/Unreal Projects/MaidRunner_AD_01/Saved/ThirdPersonExampleMap_Auto1CAAD03D4495D3185A0403B8D9E6CE594.tmp' to '../../../../../../Users/Beren/Documents/University/Year 2/Game Engine and Assets/Unreal Projects/MaidRunner_AD_01/Saved/Autosaves/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap_Auto1.umap'
+[2015.11.08-17.54.08:607][ 41]LogSavePackage: Total save time: 1151.521914ms
+[2015.11.08-17.54.08:607][ 41]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/Beren/Documents/University/Year 2/Game Engine and Assets/Unreal Projects/MaidRunner_AD_01/Saved/Autosaves/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap_Auto1.umap
+[2015.11.08-17.54.08:609][ 41]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap' took 1.243
+[2015.11.08-17.54.08:609][ 41]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 1.243
+[2015.11.08-17.54.39:150][753]LogActorFactory: Actor Factory created Cube
+[2015.11.08-17.54.40:203][854]LogActorFactory: Actor Factory created Cube
+[2015.11.08-17.54.41:843][990]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube2)
+[2015.11.08-17.54.47:446][495]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube24)
+[2015.11.08-17.54.54:715][120]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube)
+[2015.11.08-17.54.56:326][261]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube2)
+[2015.11.08-17.54.58:077][414]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube24)
+[2015.11.08-17.55.09:016][389]PIE:Warning: Warning Scale ''X=0.000 Y=1.000 Z=1.000'' is not valid on object '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.Cube24_25.StaticMeshComponent0 Cube'.
+[2015.11.08-17.55.09:016][389]PIE:Warning: Warning Scale ''X=0.000 Y=1.000 Z=1.000'' is not valid on object '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.Cube24_25.StaticMeshComponent0 Cube'.
+[2015.11.08-17.55.09:550][438]PIE:Warning: Warning Scale ''X=0.000 Y=1.000 Z=1.000'' is not valid on object '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.Cube24_25.StaticMeshComponent0 Cube'.
+[2015.11.08-17.55.09:550][438]PIE:Warning: Warning Scale ''X=0.000 Y=1.000 Z=1.000'' is not valid on object '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.Cube24_25.StaticMeshComponent0 Cube'.
+[2015.11.08-17.55.59:329][944]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube24)
+[2015.11.08-17.55.59:806][984]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2015.11.08-17.56.00:366][ 28]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube24)
+[2015.11.08-17.56.07:701][648]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube)
+[2015.11.08-17.56.18:690][670]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube25)
+[2015.11.08-17.56.29:502][627]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube25)
+[2015.11.08-17.56.36:220][230]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube24)
+[2015.11.08-17.56.42:443][827]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube24)
+[2015.11.08-17.56.42:846][863]Cmd: TRANSACTION UNDO
+[2015.11.08-17.56.42:846][863]LogEditorTransaction: Undo Scale Actors
+[2015.11.08-17.56.42:851][863]LogMaterial: Missing cached shader map for material Glass, compiling. 
+[2015.11.08-17.56.42:859][863]LogMaterial: 0.000068 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.11.08-17.56.44:673][996]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube24)
+[2015.11.08-17.56.45:048][ 26]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube25)
+[2015.11.08-17.56.47:106][175]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 25 instructions
+[2015.11.08-17.56.47:106][175]MaterialEditorStats: Info Base pass shader for self shadowed translucency: 61 instructions
+[2015.11.08-17.56.47:106][175]MaterialEditorStats: Info Vertex shader: 68 instructions
+[2015.11.08-17.56.47:106][175]MaterialEditorStats: Info Texture samplers: 4/16
+[2015.11.08-17.56.49:017][335]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube25)
+[2015.11.08-17.56.58:271][169]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube24)
+[2015.11.08-17.57.02:499][541]Cmd: TRANSACTION UNDO
+[2015.11.08-17.57.02:499][541]LogEditorTransaction: Undo Clicking on Actors
+[2015.11.08-17.57.02:580][541]LogMaterial: Missing cached shader map for material Glass, compiling. 
+[2015.11.08-17.57.02:589][541]LogMaterial: 0.000196 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.11.08-17.57.02:923][560]Cmd: TRANSACTION UNDO
+[2015.11.08-17.57.02:923][560]LogEditorTransaction: Undo Move Actors
+[2015.11.08-17.57.02:962][560]LogMaterial: Missing cached shader map for material Glass, compiling. 
+[2015.11.08-17.57.02:971][560]LogMaterial: 0.000032 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.11.08-17.57.06:968][873]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 25 instructions
+[2015.11.08-17.57.06:968][873]MaterialEditorStats: Info Base pass shader for self shadowed translucency: 61 instructions
+[2015.11.08-17.57.06:968][873]MaterialEditorStats: Info Vertex shader: 68 instructions
+[2015.11.08-17.57.06:968][873]MaterialEditorStats: Info Texture samplers: 4/16
+[2015.11.08-17.57.08:764][ 33]Cmd: TRANSACTION UNDO
+[2015.11.08-17.57.08:764][ 33]LogEditorTransaction: Undo Scale Actors
+[2015.11.08-17.57.08:769][ 33]LogMaterial: Missing cached shader map for material Glass, compiling. 
+[2015.11.08-17.57.08:777][ 33]LogMaterial: 0.000067 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.11.08-17.57.09:133][ 45]Cmd: TRANSACTION UNDO
+[2015.11.08-17.57.09:133][ 45]LogEditorTransaction: Undo Clicking on Actors
+[2015.11.08-17.57.09:175][ 45]LogMaterial: Missing cached shader map for material Glass, compiling. 
+[2015.11.08-17.57.09:184][ 45]LogMaterial: 0.000033 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.11.08-17.57.09:729][ 85]Cmd: TRANSACTION UNDO
+[2015.11.08-17.57.09:729][ 85]LogEditorTransaction: Undo Scale Actors
+[2015.11.08-17.57.09:748][ 85]LogMaterial: Missing cached shader map for material Glass, compiling. 
+[2015.11.08-17.57.09:757][ 85]LogMaterial: 0.000033 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.11.08-17.57.12:198][278]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube25)
+[2015.11.08-17.57.12:890][331]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube24)
+[2015.11.08-17.57.14:061][416]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 25 instructions
+[2015.11.08-17.57.14:061][416]MaterialEditorStats: Info Base pass shader for self shadowed translucency: 61 instructions
+[2015.11.08-17.57.14:061][416]MaterialEditorStats: Info Vertex shader: 68 instructions
+[2015.11.08-17.57.14:061][416]MaterialEditorStats: Info Texture samplers: 4/16
+[2015.11.08-17.57.22:375][168]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube25)
+[2015.11.08-17.57.44:389][188]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube24)
+[2015.11.08-17.57.55:339][283]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube24)
+[2015.11.08-17.58.02:593][959]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube24)
+[2015.11.08-17.58.13:401][935]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2015.11.08-17.58.14:342][ 11]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Window4)
+[2015.11.08-17.58.15:096][ 71]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2015.11.08-17.58.23:853][833]MapCheck: New page: Map Check
+[2015.11.08-17.58.23:898][833]Cmd: MAP REBUILD ALLVISIBLE
+[2015.11.08-17.58.23:899][833]LogEditorServer: Rebuildmap Clear paths rebuilt
+[2015.11.08-17.58.23:959][833]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.11.08-17.58.23:994][833]MapCheck:Warning: Warning WorldInfo_0 Hierarchical LOD System is disabled or no HLOD level settings available, unable to build LOD actors. 
+[2015.11.08-17.58.23:994][833]LogStats:          STAT_HLOD_BuildClusters - 34.450 ms
+[2015.11.08-17.58.24:034][833]LightingResults: New page: Lighting Build - 8 Nov 2015 17:58:24
+[2015.11.08-17.58.41:572][833]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2015.11.08-17.58.41:572][833]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2015.11.08-17.58.41:572][833]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2015.11.08-17.58.41:572][833]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2015.11.08-17.58.41:572][833]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2015.11.08-17.58.42:861][833]LogEditorBuildUtils: Build time 0:00:18
+[2015.11.08-17.58.43:480][837]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer Glass, compiling. 
+[2015.11.08-17.58.43:527][837]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer Glass, compiling. 
+[2015.11.08-17.58.59:861][824]Job is a success!
+[2015.11.08-17.59.00:037][825]LogMaterial:Warning: Material /Game/Materials/Glass.Glass needed to have new flag set bUsedWithStaticLighting !
+[2015.11.08-17.59.00:041][825]LogMaterial:Warning: Material /Engine/Transient.Glass needed to have new flag set bUsedWithStaticLighting !
+[2015.11.08-17.59.00:057][825]LogMaterial: Missing cached shader map for material Glass, compiling. 
+[2015.11.08-17.59.00:069][825]LogMaterial: 0.000123 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.11.08-17.59.00:076][825]LogMaterial: Missing cached shader map for material Glass, compiling. 
+[2015.11.08-17.59.00:106][825]LogMaterial: 0.000191 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.11.08-17.59.00:386][825]LogTexture:Display: Building textures: SkyOcclusion1_1 (AutoDXT)
+[2015.11.08-17.59.00:532][825]LogTexture:Display: Building textures: LQ_Lightmap_1_3 (DXT1)
+[2015.11.08-17.59.00:538][825]LogTexture:Display: Building textures: HQ_Lightmap1_3 (AutoDXT)
+[2015.11.08-17.59.00:539][825]LogTexture:Display: Building textures: SkyOcclusion1_3 (AutoDXT)
+[2015.11.08-17.59.00:545][825]LogTexture:Display: Building textures: LQ_Lightmap_1_2 (DXT1)
+[2015.11.08-17.59.00:752][825]LogTexture:Display: Building textures: HQ_Lightmap1_2 (AutoDXT)
+[2015.11.08-17.59.01:081][825]LogTexture:Display: Building textures: SkyOcclusion1_2 (AutoDXT)
+[2015.11.08-17.59.01:242][825]LogTexture:Display: Building textures: LQ_Lightmap_1_1 (DXT1)
+[2015.11.08-17.59.01:317][825]LogTexture:Display: Building textures: HQ_Lightmap1_1 (AutoDXT)
+[2015.11.08-17.59.01:830][825]LogTexture:Display: Building textures: ShadowMapTexture2D_0 (G8)
+[2015.11.08-17.59.01:927][825]LogTexture:Display: Building textures: ShadowMapTexture2D_1 (G8)
+[2015.11.08-17.59.01:933][825]LogTexture:Display: Building textures: ShadowMapTexture2D_2 (G8)
+[2015.11.08-17.59.08:766][825]Lightmass on PHOENIX: 15.9 sec total, 517 ms importing, 3 ms setup, 6.13 sec photons, 8.94 sec processing, 0 ms extra exporting [39/39 mappings]. Threads: 35.7 sec total, 13.5 sec processing.
+[2015.11.08-17.59.08:802][825]LogStaticLightingSystem: Illumination: 44.7 sec (1.79 sec encoding lightmaps)
+[2015.11.08-17.59.08:802][825]LogStaticLightingSystem: Lightmap texture memory:  2.7 MB (2.7 MB streaming, 0.0 MB non-streaming), 6 textures
+[2015.11.08-17.59.08:802][825]LogStaticLightingSystem: Shadowmap texture memory: 0.8 MB (0.8 MB streaming, 0.0 MB non-streaming), 3 textures
+[2015.11.08-17.59.09:578][826]Cmd: MAP CHECK NOTIFYRESULTS
+[2015.11.08-17.59.09:578][826]MapCheck: New page: ThirdPersonExampleMap - 8 Nov 2015 17:59:09
+[2015.11.08-17.59.09:774][826]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 195.97ms to complete.
+[2015.11.08-17.59.09:781][826]MaterialEditorStats: Info Base pass shader with static lighting: 50 instructions
+[2015.11.08-17.59.09:781][826]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 25 instructions
+[2015.11.08-17.59.09:781][826]MaterialEditorStats: Info Base pass shader for self shadowed translucency: 61 instructions
+[2015.11.08-17.59.09:781][826]MaterialEditorStats: Info Vertex shader: 68 instructions
+[2015.11.08-17.59.09:781][826]MaterialEditorStats: Info Texture samplers: 4/16
+[2015.11.08-18.04.19:651][754]LogSavePackage: Save=275.919647ms
+[2015.11.08-18.04.19:651][754]LogSavePackage: Moving '../../../../../../Users/Beren/Documents/University/Year 2/Game Engine and Assets/Unreal Projects/MaidRunner_AD_01/Saved/ThirdPersonExampleMap_Auto2754E26B3417D288127095E8838663A64.tmp' to '../../../../../../Users/Beren/Documents/University/Year 2/Game Engine and Assets/Unreal Projects/MaidRunner_AD_01/Saved/Autosaves/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap_Auto2.umap'
+[2015.11.08-18.04.19:706][754]LogSavePackage: Total save time: 375.270031ms
+[2015.11.08-18.04.19:706][754]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/Beren/Documents/University/Year 2/Game Engine and Assets/Unreal Projects/MaidRunner_AD_01/Saved/Autosaves/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap_Auto2.umap
+[2015.11.08-18.04.19:708][754]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap' took 0.411
+[2015.11.08-18.04.19:708][754]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.411
+[2015.11.08-18.04.19:713][754]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Materials/Glass] ([1] browsable assets)...
+[2015.11.08-18.04.19:713][754]OBJ SavePackage: Finished generating thumbnails for package [/Game/Materials/Glass]
+[2015.11.08-18.04.19:765][754]LogSavePackage: Save=19.080442ms
+[2015.11.08-18.04.19:765][754]LogSavePackage: Moving '../../../../../../Users/Beren/Documents/University/Year 2/Game Engine and Assets/Unreal Projects/MaidRunner_AD_01/Saved/Glass_Auto255619AA64626A31F5C462CB0A1FFDF81.tmp' to '../../../../../../Users/Beren/Documents/University/Year 2/Game Engine and Assets/Unreal Projects/MaidRunner_AD_01/Saved/Autosaves/Game/Materials/Glass_Auto2.uasset'
+[2015.11.08-18.04.19:767][754]LogSavePackage: Total save time: 52.983388ms
+[2015.11.08-18.04.19:767][754]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/Beren/Documents/University/Year 2/Game Engine and Assets/Unreal Projects/MaidRunner_AD_01/Saved/Autosaves/Game/Materials/Glass_Auto2.uasset
+[2015.11.08-18.04.19:767][754]LogFileHelpers: Auto-saving content packages took 0.058
+[2015.11.08-18.47.59:543][752]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube24)
+[2015.11.08-18.48.00:566][840]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Cube25)
+[2015.11.08-18.48.28:889][521]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (DoorRight)
+[2015.11.08-18.49.25:323][891]LogContentBrowser: Native class hierarchy updated for 'Matinee' in 0.0005 seconds. Added 15 classes and 2 folders.
+[2015.11.08-18.49.25:363][891]LogInit: Transaction tracking system initialized
+[2015.11.08-18.49.25:384][891]EditorErrors: New page: Matinee Initialization
+[2015.11.08-18.51.57:105][606]LogMaterial: Missing cached shader map for material Glass, compiling. 
+[2015.11.08-18.51.57:142][606]LogMaterial: 0.000117 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.11.08-18.51.57:167][606]LogMaterial: Missing cached shader map for material Glass, compiling. 
+[2015.11.08-18.51.57:215][606]LogMaterial: Missing cached shader map for material Glass, compiling. 
+[2015.11.08-18.51.57:230][606]LogMaterial: 0.000833 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.11.08-18.51.59:963][848]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (DoorLeft)
+[2015.11.08-18.52.37:219][953]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (DoorRight)
+[2015.11.08-18.52.38:418][ 61]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (DoorRight)
+[2015.11.08-18.52.38:947][107]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (DoorLeft)
+[2015.11.08-18.53.11:811][882]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (DoorLeft)
+[2015.11.08-18.53.21:610][667]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2015.11.08-18.53.28:442][142]Cmd: TRANSACTION UNDO
+[2015.11.08-18.53.28:442][142]LogEditorTransaction: Undo Move Loop End Marker
+[2015.11.08-18.53.28:896][187]Cmd: TRANSACTION UNDO
+[2015.11.08-18.53.28:896][187]LogEditorTransaction: Undo New Group
+[2015.11.08-18.53.29:437][238]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (DoorLeft)
+[2015.11.08-18.53.54:196][205]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (DoorRight)
+[2015.11.08-18.53.56:091][361]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (DoorLeft)
+[2015.11.08-18.54.02:667][981]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (DoorRight)
+[2015.11.08-18.54.03:772][ 80]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (DoorLeft)
+[2015.11.08-18.54.08:028][473]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (DoorRight)
+[2015.11.08-18.54.24:227][ 41]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2015.11.08-18.54.25:517][155]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (DoorRight)
+[2015.11.08-18.54.51:947][ 99]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (DoorLeft)
+[2015.11.08-18.54.52:448][141]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (DoorRight)
+[2015.11.08-18.54.58:373][652]Cmd: TRANSACTION UNDO
+[2015.11.08-18.54.58:373][652]LogEditorTransaction: Undo Move Loop Start Marker
+[2015.11.08-18.55.01:042][889]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2015.11.08-18.55.12:644][736]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (DoorLeft)
+[2015.11.08-18.56.22:927][291]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2015.11.08-18.56.35:506][185]Cmd: TRANSACTION UNDO
+[2015.11.08-18.56.35:506][185]LogEditorTransaction: Undo New Group
+[2015.11.08-18.56.55:057][770]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2015.11.08-18.56.58:016][953]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (DoorRight)
+[2015.11.08-18.56.58:787][ 18]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (DoorLeft)
+[2015.11.08-18.57.26:987][161]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
