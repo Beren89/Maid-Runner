@@ -1,17 +1,17 @@
 ------------------
 System Information
 ------------------
-Time of this report: 1/7/2016, 16:21:41
-       Machine name: CAA112-30
+Time of this report: 1/7/2016, 11:02:33
+       Machine name: CAA119-07
    Operating System: Windows 7 Enterprise 64-bit (6.1, Build 7601) Service Pack 1 (7601.win7sp1_gdr.151019-1254)
            Language: English (Regional Setting: English)
-System Manufacturer: n/a
-       System Model: n/a
-               BIOS: n/a
-          Processor: n/a (8 CPUs)
+System Manufacturer: Viglen
+       System Model: Vig800S
+               BIOS: BIOS Date: 06/05/14 17:40:01 Ver: 90.03
+          Processor: Intel(R) Core(TM) i7-4790 CPU @ 3.60GHz (8 CPUs), ~3.6GHz
              Memory: 16384MB RAM
-Available OS Memory: 16338MB RAM
-          Page File: 6620MB used, 26052MB available
+Available OS Memory: 16224MB RAM
+          Page File: 8379MB used, 24065MB available
         Windows Dir: C:\Windows
     DirectX Version: DirectX 11
 DX Setup Parameters: Not found
@@ -19,15 +19,13 @@ DX Setup Parameters: Not found
  System DPI Setting: 96 DPI (100 percent)
     DWM DPI Scaling: Disabled
      DxDiag Version: 6.01.7601.17514 32bit Unicode
+  DxDiag Previously: Crashed in DirectSound (stage 1) & DirectInput (stage 1). Re-running DxDiag with "dontskip" command line parameter or choosing not to bypass information gathering when prompted might result in DxDiag successfully obtaining this information
 
 ------------
 DxDiag Notes
 ------------
       Display Tab 1: No problems found.
-        Sound Tab 1: No problems found.
-        Sound Tab 2: No problems found.
-        Sound Tab 3: No problems found.
-          Input Tab: No problems found.
+          Input Tab: 
 
 --------------------
 DirectX Debug Levels
@@ -44,34 +42,34 @@ DirectShow:  0/6 (retail)
 Display Devices
 ---------------
           Card name: NVIDIA GeForce GTX 970
-       Manufacturer: 
-          Chip type: 
-           DAC type: 
+       Manufacturer: NVIDIA
+          Chip type: GeForce GTX 970
+           DAC type: Integrated RAMDAC
          Device Key: Enum\PCI\VEN_10DE&DEV_13C2&SUBSYS_29743842&REV_A1
      Display Memory: 4095 MB
    Dedicated Memory: 3072 MB
       Shared Memory: 1023 MB
-       Current Mode: 2560 x 1080 (32 bit) (60Hz)
-       Monitor Name: Generic PnP Monitor
-      Monitor Model: 
+       Current Mode: 1920 x 1080 (32 bit) (59Hz)
+       Monitor Name: Generic Non-PnP Monitor
+      Monitor Model: unknown
          Monitor Id: 
-        Native Mode: 
-        Output Type: 
-        Driver Name: 
-Driver File Version:  ()
-     Driver Version: 
+        Native Mode: unknown
+        Output Type: DVI
+        Driver Name: nvd3dumx.dll,nvwgf2umx.dll,nvwgf2umx.dll,nvd3dum,nvwgf2um,nvwgf2um
+Driver File Version: 10.18.0013.5850 (English)
+     Driver Version: 10.18.13.5850
         DDI Version: 11
        Driver Model: WDDM 1.1
   Driver Attributes: Final Retail
-   Driver Date/Size: , 0 bytes
-        WHQL Logo'd: n/a
-    WHQL Date Stamp: n/a
+   Driver Date/Size: 10/3/2015 05:06:17, 15716648 bytes
+        WHQL Logo'd: Yes
+    WHQL Date Stamp: 
   Device Identifier: {D7B71E3E-5082-11CF-284D-79091CC2C735}
           Vendor ID: 0x10DE
           Device ID: 0x13C2
           SubSys ID: 0x29743842
         Revision ID: 0x00A1
- Driver Strong Name: oem276.inf:NVIDIA_Devices.NTamd64.6.1:Section032:10.18.13.5850:pci\ven_10de&dev_13c2
+ Driver Strong Name: oem290.inf:NVIDIA_Devices.NTamd64.6.1:Section032:10.18.13.5850:pci\ven_10de&dev_13c2
      Rank Of Driver: 00E62001
         Video Accel: 
    Deinterlace Caps: {6CB69578-7617-4637-91E5-1C02DB810285}: Format(In/Out)=(YUY2,YUY2) Frames(Prev/Fwd/Back)=(0,0,0) Caps=VideoProcess_YUV2RGB VideoProcess_StretchX VideoProcess_StretchY DeinterlaceTech_PixelAdaptive 
@@ -123,125 +121,17 @@ Driver File Version:  ()
 -------------
 Sound Devices
 -------------
-            Description: LG ULTRAWIDE-4 (NVIDIA High Definition Audio)
- Default Sound Playback: Yes
- Default Voice Playback: Yes
-            Hardware ID: HDAUDIO\FUNC_01&VEN_10DE&DEV_0071&SUBSYS_38422974&REV_1001
-        Manufacturer ID: 1
-             Product ID: 100
-                   Type: WDM
-            Driver Name: nvhda64v.sys
-         Driver Version: 1.03.0034.0003 (English)
-      Driver Attributes: Final Retail
-            WHQL Logo'd: Yes
-          Date and Size: 10/3/2015 05:06:17, 204648 bytes
-            Other Files: 
-        Driver Provider: NVIDIA Corporation
-         HW Accel Level: Basic
-              Cap Flags: 0xF1F
-    Min/Max Sample Rate: 100, 200000
-Static/Strm HW Mix Bufs: 1, 0
- Static/Strm HW 3D Bufs: 0, 0
-              HW Memory: 0
-       Voice Management: No
- EAX(tm) 2.0 Listen/Src: No, No
-   I3DL2(tm) Listen/Src: No, No
-Sensaura(tm) ZoomFX(tm): No
-
-            Description: Realtek Digital Output (Realtek High Definition Audio)
- Default Sound Playback: No
- Default Voice Playback: No
-            Hardware ID: HDAUDIO\FUNC_01&VEN_10EC&DEV_0888&SUBSYS_80862008&REV_1002
-        Manufacturer ID: 1
-             Product ID: 100
-                   Type: WDM
-            Driver Name: RTKVHD64.sys
-         Driver Version: 6.00.0001.7368 (English)
-      Driver Attributes: Final Retail
-            WHQL Logo'd: Yes
-          Date and Size: 10/21/2014 17:45:06, 4229848 bytes
-            Other Files: 
-        Driver Provider: Realtek Semiconductor Corp.
-         HW Accel Level: Basic
-              Cap Flags: 0xF1F
-    Min/Max Sample Rate: 100, 200000
-Static/Strm HW Mix Bufs: 1, 0
- Static/Strm HW 3D Bufs: 0, 0
-              HW Memory: 0
-       Voice Management: No
- EAX(tm) 2.0 Listen/Src: No, No
-   I3DL2(tm) Listen/Src: No, No
-Sensaura(tm) ZoomFX(tm): No
-
-            Description: Speakers (Realtek High Definition Audio)
- Default Sound Playback: No
- Default Voice Playback: No
-            Hardware ID: HDAUDIO\FUNC_01&VEN_10EC&DEV_0888&SUBSYS_80862008&REV_1002
-        Manufacturer ID: 1
-             Product ID: 100
-                   Type: WDM
-            Driver Name: RTKVHD64.sys
-         Driver Version: 6.00.0001.7368 (English)
-      Driver Attributes: Final Retail
-            WHQL Logo'd: Yes
-          Date and Size: 10/21/2014 17:45:06, 4229848 bytes
-            Other Files: 
-        Driver Provider: Realtek Semiconductor Corp.
-         HW Accel Level: Basic
-              Cap Flags: 0xF1F
-    Min/Max Sample Rate: 100, 200000
-Static/Strm HW Mix Bufs: 1, 0
- Static/Strm HW 3D Bufs: 0, 0
-              HW Memory: 0
-       Voice Management: No
- EAX(tm) 2.0 Listen/Src: No, No
-   I3DL2(tm) Listen/Src: No, No
-Sensaura(tm) ZoomFX(tm): No
-
 ---------------------
 Sound Capture Devices
 ---------------------
 -------------------
 DirectInput Devices
 -------------------
-      Device Name: Mouse
-         Attached: 1
-    Controller ID: n/a
-Vendor/Product ID: n/a
-        FF Driver: n/a
-
-      Device Name: Keyboard
-         Attached: 1
-    Controller ID: n/a
-Vendor/Product ID: n/a
-        FF Driver: n/a
-
 Poll w/ Interrupt: No
 
 -----------
 USB Devices
 -----------
-+ USB Root Hub
-| Vendor/Product ID: 0x8086, 0x1C2D
-| Matching Device ID: usb\root_hub20
-| Service: usbhub
-| 
-+-+ Generic USB Hub
-| | Vendor/Product ID: 0x8087, 0x0024
-| | Location: Port_#0001.Hub_#0001
-| | Matching Device ID: usb\class_09
-| | Service: usbhub
-| | 
-| +-+ USB Input Device
-| | | Vendor/Product ID: 0x04F2, 0x0116
-| | | Location: Port_#0001.Hub_#0003
-| | | Matching Device ID: generic_hid_device
-| | | Service: HidUsb
-| | | 
-| | +-+ HID Keyboard Device
-| | | | Vendor/Product ID: 0x04F2, 0x0116
-| | | | Matching Device ID: hid_device_system_keyboard
-| | | | Service: kbdhid
 
 ----------------
 Gameport Devices
@@ -250,102 +140,91 @@ Gameport Devices
 ------------
 PS/2 Devices
 ------------
-+ Terminal Server Keyboard Driver
-| Matching Device ID: root\rdp_kbd
-| Upper Filters: kbdclass
-| Service: TermDD
-| 
-+ HID-compliant mouse
-| Vendor/Product ID: 0x093A, 0x2510
-| Matching Device ID: hid_device_system_mouse
-| Service: mouhid
-| 
-+ Terminal Server Mouse Driver
-| Matching Device ID: root\rdp_mou
-| Upper Filters: mouclass
-| Service: TermDD
+
+------------------------
+Disk & DVD/CD-ROM Drives
+------------------------
+      Drive: C:
+ Free Space: 206.5 GB
+Total Space: 476.9 GB
+File System: NTFS
+      Model: WDC WD5000AAKX-08U6A SCSI Disk Device
+
+      Drive: D:
+ Free Space: 929.0 GB
+Total Space: 953.9 GB
+File System: NTFS
+      Model: WDC WD10EZRX-00D8PB0 SCSI Disk Device
+
+      Drive: E:
+      Model: TSSTcorp CDDVDW SH-224DB SCSI CdRom Device
+     Driver: c:\windows\system32\drivers\cdrom.sys, 6.01.7601.17514 (English), , 0 bytes
 
 --------------
 System Devices
 --------------
-     Name: Standard Dual Channel PCI IDE Controller
-Device ID: PCI\VEN_8086&DEV_1C3C&SUBSYS_20088086&REV_04\3&11583659&0&B2
+     Name: Intel(R) 8 Series/C220 Series USB EHCI #1 - 8C26
+Device ID: PCI\VEN_8086&DEV_8C26&SUBSYS_85341043&REV_05\3&11583659&0&E8
    Driver: n/a
 
-     Name: Intel(R) 6 Series/C200 Series Chipset Family 2 port Serial ATA Storage Controller - 1C08
-Device ID: PCI\VEN_8086&DEV_1C08&SUBSYS_20088086&REV_04\3&11583659&0&FD
-   Driver: n/a
-
-     Name: Renesas Electronics USB 3.0 Host Controller
-Device ID: PCI\VEN_1033&DEV_0194&SUBSYS_20088086&REV_04\FFFFFFFFFFFFFFFF00
-   Driver: n/a
-
-     Name: Intel(R) Management Engine Interface 
-Device ID: PCI\VEN_8086&DEV_1C3A&SUBSYS_20088086&REV_04\3&11583659&0&B0
-   Driver: n/a
-
-     Name: Intel(R) 6 Series/C200 Series Chipset Family 4 port Serial ATA Storage Controller - 1C00
-Device ID: PCI\VEN_8086&DEV_1C00&SUBSYS_20088086&REV_04\3&11583659&0&FA
-   Driver: n/a
-
-     Name: Intel(R) 6 Series/C200 Series Chipset Family USB Enhanced Host Controller - 1C2D
-Device ID: PCI\VEN_8086&DEV_1C2D&SUBSYS_20088086&REV_04\3&11583659&0&D0
-   Driver: n/a
-
-     Name: Intel(R) 82579LM Gigabit Network Connection
-Device ID: PCI\VEN_8086&DEV_1502&SUBSYS_20088086&REV_04\3&11583659&0&C8
-   Driver: n/a
-
-     Name: Intel(R) 6 Series/C200 Series Chipset Family USB Enhanced Host Controller - 1C26
-Device ID: PCI\VEN_8086&DEV_1C26&SUBSYS_20088086&REV_04\3&11583659&0&E8
-   Driver: n/a
-
-     Name: Xeon E3-1200/2nd Generation Intel(R) Core(TM) Processor Family PCI Express Root Port - 0101
-Device ID: PCI\VEN_8086&DEV_0101&SUBSYS_20088086&REV_09\3&11583659&0&08
+     Name: Intel(R) HD Graphics 4600
+Device ID: PCI\VEN_8086&DEV_0412&SUBSYS_85341043&REV_06\3&11583659&0&10
    Driver: n/a
 
      Name: Synaptics SMBus Driver
-Device ID: PCI\VEN_8086&DEV_1C22&SUBSYS_20088086&REV_04\3&11583659&0&FB
-   Driver: n/a
-
-     Name: 2nd Generation Intel(R) Core(TM) Processor Family DRAM Controller - 0100
-Device ID: PCI\VEN_8086&DEV_0100&SUBSYS_20088086&REV_09\3&11583659&0&00
-   Driver: n/a
-
-     Name: Intel(R) 82801 PCI Bridge - 244E
-Device ID: PCI\VEN_8086&DEV_244E&SUBSYS_20088086&REV_A4\3&11583659&0&F0
-   Driver: n/a
-
-     Name: High Definition Audio Controller
-Device ID: PCI\VEN_8086&DEV_1C20&SUBSYS_20088086&REV_04\3&11583659&0&D8
-   Driver: n/a
-
-     Name: LSI 1394 OHCI Compliant Host Controller
-Device ID: PCI\VEN_11C1&DEV_5811&SUBSYS_20088086&REV_70\4&10E2E3CA&0&18F0
-   Driver: n/a
-
-     Name: Intel(R) Q67 Express Chipset Family LPC Interface Controller - 1C4E
-Device ID: PCI\VEN_8086&DEV_1C4E&SUBSYS_20088086&REV_04\3&11583659&0&F8
-   Driver: n/a
-
-     Name: Intel(R) 6 Series/C200 Series Chipset Family PCI Express Root Port 7 - 1C1C
-Device ID: PCI\VEN_8086&DEV_1C1C&SUBSYS_20088086&REV_B4\3&11583659&0&E6
+Device ID: PCI\VEN_8086&DEV_8C22&SUBSYS_85341043&REV_05\3&11583659&0&FB
    Driver: n/a
 
      Name: NVIDIA GeForce GTX 970
-Device ID: PCI\VEN_10DE&DEV_13C2&SUBSYS_29743842&REV_A1\4&AC372AD&0&0008
-   Driver: n/a
-
-     Name: Intel(R) Active Management Technology - SOL (COM3)
-Device ID: PCI\VEN_8086&DEV_1C3D&SUBSYS_20088086&REV_04\3&11583659&0&B3
-   Driver: n/a
-
-     Name: Intel(R) 6 Series/C200 Series Chipset Family PCI Express Root Port 1 - 1C10
-Device ID: PCI\VEN_8086&DEV_1C10&SUBSYS_20088086&REV_B4\3&11583659&0&E0
+Device ID: PCI\VEN_10DE&DEV_13C2&SUBSYS_29743842&REV_A1\4&3834D97&0&0008
    Driver: n/a
 
      Name: High Definition Audio Controller
-Device ID: PCI\VEN_10DE&DEV_0FBB&SUBSYS_29743842&REV_A1\4&AC372AD&0&0108
+Device ID: PCI\VEN_8086&DEV_8C20&SUBSYS_85761043&REV_05\3&11583659&0&D8
+   Driver: n/a
+
+     Name: High Definition Audio Controller
+Device ID: PCI\VEN_10DE&DEV_0FBB&SUBSYS_29743842&REV_A1\4&3834D97&0&0108
+   Driver: n/a
+
+     Name: Intel(R) Q87 LPC Controller - 8C4E
+Device ID: PCI\VEN_8086&DEV_8C4E&SUBSYS_85341043&REV_05\3&11583659&0&F8
+   Driver: n/a
+
+     Name: Intel(R) 8 Series/C220 Chipset Family SATA AHCI Controller
+Device ID: PCI\VEN_8086&DEV_8C02&SUBSYS_85341043&REV_05\3&11583659&0&FA
+   Driver: n/a
+
+     Name: Intel(R) Active Management Technology - SOL (COM3)
+Device ID: PCI\VEN_8086&DEV_8C3D&SUBSYS_85341043&REV_04\3&11583659&0&B3
+   Driver: n/a
+
+     Name: Intel(R) Ethernet Connection I217-LM
+Device ID: PCI\VEN_8086&DEV_153A&SUBSYS_85351043&REV_05\3&11583659&0&C8
+   Driver: n/a
+
+     Name: Intel(R) Management Engine Interface 
+Device ID: PCI\VEN_8086&DEV_8C3A&SUBSYS_85341043&REV_04\3&11583659&0&B0
+   Driver: n/a
+
+     Name: High Definition Audio Controller
+Device ID: PCI\VEN_8086&DEV_0C0C&SUBSYS_85341043&REV_06\3&11583659&0&18
+   Driver: n/a
+
+     Name: Intel(R) USB 3.0 eXtensible Host Controller
+Device ID: PCI\VEN_8086&DEV_8C31&SUBSYS_85341043&REV_05\3&11583659&0&A0
+   Driver: n/a
+
+     Name: Intel(R) Xeon(R) processor E3-1200 v3/4th Gen Core processor PCI Express x16 Controller - 0C01
+Device ID: PCI\VEN_8086&DEV_0C01&SUBSYS_85341043&REV_06\3&11583659&0&08
+   Driver: n/a
+
+     Name: Intel(R) 8 Series/C220 Series USB EHCI #2 - 8C2D
+Device ID: PCI\VEN_8086&DEV_8C2D&SUBSYS_85341043&REV_05\3&11583659&0&D0
+   Driver: n/a
+
+     Name: Intel(R) 4th Gen Core processor DRAM Controller - 0C00
+Device ID: PCI\VEN_8086&DEV_0C00&SUBSYS_85341043&REV_06\3&11583659&0&00
    Driver: n/a
 
 ------------------
@@ -491,15 +370,12 @@ Default MidiOut Device,0x00800000,1,0,quartz.dll,6.06.7601.18741
 Microsoft GS Wavetable Synth,0x00200000,1,0,quartz.dll,6.06.7601.18741
 
 WDM Streaming Capture Devices:
-,0x00000000,0,0,,
 Realtek HD Audio Line input,0x00200000,1,1,ksproxy.ax,6.01.7601.17514
 Realtek HD Audio Mic input,0x00200000,1,1,ksproxy.ax,6.01.7601.17514
 Realtek HD Audio Stereo input,0x00200000,1,1,ksproxy.ax,6.01.7601.17514
 
 WDM Streaming Rendering Devices:
-,0x00000000,0,0,,
 Realtek HD Audio output,0x00200000,1,1,ksproxy.ax,6.01.7601.17514
-Realtek HDA SPDIF Out,0x00200000,1,1,ksproxy.ax,6.01.7601.17514
 
 BDA Network Providers:
 Microsoft ATSC Network Provider,0x00200000,0,1,MSDvbNP.ax,6.06.7601.17514
@@ -525,14 +401,10 @@ WDM Streaming Communication Transforms:
 Tee/Sink-to-Sink Converter,0x00200000,1,1,ksproxy.ax,6.01.7601.17514
 
 Audio Renderers:
-LG ULTRAWIDE-4 (NVIDIA High Def,0x00200000,1,0,quartz.dll,6.06.7601.18741
+Speakers (Realtek High Definiti,0x00200000,1,0,quartz.dll,6.06.7601.18741
 Default DirectSound Device,0x00800000,1,0,quartz.dll,6.06.7601.18741
 Default WaveOut Device,0x00200000,1,0,quartz.dll,6.06.7601.18741
-DirectSound: LG ULTRAWIDE-4 (NVIDIA High Definition Audio),0x00200000,1,0,quartz.dll,6.06.7601.18741
-DirectSound: Realtek Digital Output (Realtek High Definition Audio),0x00200000,1,0,quartz.dll,6.06.7601.18741
 DirectSound: Speakers (Realtek High Definition Audio),0x00200000,1,0,quartz.dll,6.06.7601.18741
-Realtek Digital Output (Realtek,0x00200000,1,0,quartz.dll,6.06.7601.18741
-Speakers (Realtek High Definiti,0x00200000,1,0,quartz.dll,6.06.7601.18741
 
 ---------------
 EVR Power Information
